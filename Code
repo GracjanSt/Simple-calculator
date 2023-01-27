@@ -1,7 +1,7 @@
 print("Calculator")
 
 print("Choose your Destiny ")
-wybor = input("""
+choose = input("""
 1 - addition, 2 - substraction,
 3 - division, 4 - multiplication,
 5 - exponentation, 6 - modulo
@@ -10,18 +10,18 @@ wybor = input("""
 a = int(input("Choose first number: "))
 b = int(input("Choose second number: "))
 
-if(wybor == '1'):
+if(choose == '1'):
     print (a + b)
-elif(wybor == '2' ):
+elif(choose == '2' ):
     print (a - b)
-elif(wybor == '3'):
+elif(choose == '3'):
     if(b == 0):
         print("Do not divide by zero")
     else:
         print(a / b)
-elif(wybor == '4'):
+elif(choose == '4'):
     print(a * b)
-elif(wybor == '5'):
+elif(choose == '5'):
     print(a ** b)
-elif(wybor == '6'):
+elif(choose == '6'):
     print(a % b)
